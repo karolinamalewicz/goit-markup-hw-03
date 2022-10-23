@@ -14,6 +14,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  width: 1600px;
+  margin: 0px auto;
 }
 .menu {
   color: var(--primary-black);
@@ -52,6 +54,7 @@ body {
   line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
+  list-style-type: none;
 }
 
 .header-contact:hover,
@@ -210,4 +213,15 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: 200px;
+  padding-left: 15px;
 }
