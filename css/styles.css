@@ -1,0 +1,213 @@
+:root {
+  --primary-color: rgba(117, 117, 117, 1);
+  --secondary-color: rgba(255, 255, 255, 1);
+  --semiwhite-color: rgba(255, 255, 255, 0.6);
+  --primary-black: rgba(33, 33, 33, 1);
+  --blue-color: rgba(33, 150, 243, 1);
+  --main-button-color: rgba(245, 244, 250, 1);
+  --secondary-black: rgba(0, 0, 0, 1);
+  --header-background-color: rgba(236, 236, 236, 1);
+  --dark-color: rgba(47, 48, 58, 1);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+.menu {
+  color: var(--primary-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.main-title {
+  color: var(--secondary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.second-title {
+  color: var(--primary-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.menu:hover,
+.menu:focus {
+  color: var(--blue-color);
+}
+
+.header-contact {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--blue-color);
+}
+
+.footer-style {
+  background-color: var(--dark-color);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: inherit;
+  letter-spacing: 0.03em;
+}
+
+.address-description {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: inherit;
+  letter-spacing: 0.03em;
+}
+
+.adress {
+  color: var(--secondary-color);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: inherit;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact {
+  color: var(--semi-white-color);
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: inherit;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--blue-color);
+}
+
+.description {
+  background-color: var(--dark-color);
+}
+
+.header-logo {
+  font-family: "Raleway";
+  color: var(--secondary-black);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  color: var(--secondary-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--blue-color);
+}
+
+.button-primary {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  color: var(--secondary-color);
+  letter-spacing: 0.06em;
+  background-color: var(--blue-color);
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--main-button-color);
+  color: var(--blue-color);
+}
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--primary-black);
+  letter-spacing: 0.03em;
+  background-color: var(--main-button-color);
+  border: none;
+  border-radius: 4px;
+  height: 38px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--blue-color);
+}
+
+.header-title {
+  color: var(--primary-black);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.header-text {
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team-names {
+  color: var(--primary-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.position-name {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+  color: var(--primary-black);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-subtitle {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
