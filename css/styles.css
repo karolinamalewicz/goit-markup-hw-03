@@ -32,6 +32,10 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .second-title {
@@ -221,6 +225,143 @@ ul {
 }
 
 .container {
+  width: 1200px;
+  margin-left: 200px;
+  padding-left: 15px;
+}
+
+.border-header {
+  border-bottom: 1px solid;
+  border-color: var(--grey-color);
+}
+.section {
+  width: 1170px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0;
+}
+.header-description {
+  padding: 24px 15px 25px 15px;
+}
+
+.header-section {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navigation-description {
+  margin-left: 93px;
+  flex-grow: 2;
+  display: flex;
+}
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 46px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 0;
+  margin-left: 356px;
+}
+.description {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 696px;
+  justify-content: center;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  gap: 30px;
+}
+.p-style {
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+  padding-right: 215;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.main-button {
+  margin: 0;
+  text-align: center;
+  padding: 10px 41px 10px 42px;
+}
+.style-sektion1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  align-items: left;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section2-style {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+  padding-top: 0;
+}
+.work-description {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.paragraph-style li {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 10px;
+}
+.section3-style {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+}
+.team-item {
+  margin: 0;
+}
+
+.team {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.team-item-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.div-container {
   width: 1200px;
   margin-left: 200px;
   padding-left: 15px;
