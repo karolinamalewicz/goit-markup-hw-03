@@ -366,3 +366,49 @@ p {
   margin-left: 200px;
   padding-left: 15px;
 }
+.main-portfolio {
+  margin-right: 0;
+}
+
+.portfolio-style {
+  width: 1170px;
+}
+
+.button-description {
+  margin-bottom: 50px;
+  padding-top: 0;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  flex-basis: 370px;
+}
+.portfolio-menu {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: auto;
+}
+.button {
+  padding: 6px 22px;
+}
+.portfolio-item {
+  width: 370px;
+  border-bottom: 1px solid;
+  border-color: var(--grey-color);
+}
+
+.portfolio-item-description {
+  margin: 0;
+  text-align: left;
+}
+
+.portfolio-subject {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+}
