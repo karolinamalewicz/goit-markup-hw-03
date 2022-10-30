@@ -412,3 +412,19 @@ p {
   justify-content: flex-start;
   gap: 4px;
 }
+.addres {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 0;
+}
+
+.footer-style {
+  padding: 60px 0px 60px 0px;
+}
+
+.footer-style .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
