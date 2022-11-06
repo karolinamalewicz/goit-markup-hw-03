@@ -375,6 +375,7 @@ p {
 
 .portfolio-style {
   width: 1170px;
+  margin: 0px;
 }
 
 .button-description {
@@ -384,10 +385,11 @@ p {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   gap: 30px;
-  flex-basis: 370px;
-  padding-right: 215px;
+  flex-basis: calc((100% - 60%) / 3);
+  padding-left: 0px;
 }
 .portfolio-menu {
   display: flex;
@@ -400,8 +402,10 @@ p {
 }
 .portfolio-item {
   width: 370px;
-  border: 1px solid;
-  border-color: #eeeeee;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  flex-basis: calc((100% - 60%) / 3);
 }
 
 .portfolio-item-description {
