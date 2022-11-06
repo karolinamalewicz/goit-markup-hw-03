@@ -170,7 +170,10 @@ body {
   height: 38px;
 }
 
-.button:hover,
+.button:hover {
+  color: white;
+  background-color: var(--blue-color);
+}
 .button:focus {
   background-color: var(--blue-color);
 }
@@ -226,8 +229,8 @@ ul {
 
 .container {
   width: 1200px;
-  margin-left: 200px;
-  padding-left: 15px;
+  margin: 0 auto;
+  padding-left: 215px;
 }
 
 .border-header {
@@ -235,10 +238,8 @@ ul {
   border-color: var(--grey-color);
 }
 .section {
-  width: 1170px;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0;
 }
 .header-description {
   padding: 24px 15px 25px 15px;
@@ -336,12 +337,15 @@ p {
   gap: 10px;
 }
 .section3-style {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 50px;
   text-align: center;
   align-items: center;
+  background-color: #f5f4fa;
+  width: 1600px;
+  padding: 60px, 0px, 60px, 0px;
 }
 .team-item {
   margin: 0;
@@ -396,8 +400,9 @@ p {
 }
 .portfolio-item {
   width: 370px;
-  border-bottom: 1px solid;
-  border-color: var(--grey-color);
+  border: 1px solid;
+  border-color: #eeeeee;
+  justify-content: space-around;
 }
 
 .portfolio-item-description {
