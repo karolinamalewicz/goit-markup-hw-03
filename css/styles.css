@@ -238,7 +238,10 @@ ul {
   border-color: var(--grey-color);
 }
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .header-description {
   padding: 24px 15px 25px 15px;
@@ -343,8 +346,10 @@ p {
   text-align: center;
   align-items: center;
   background-color: #f5f4fa;
-  width: 1600px;
-  padding: 60px 0px;
+
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .team-item {
   margin: 0;
@@ -370,7 +375,7 @@ p {
   padding-left: 15px;
 }
 .main-portfolio {
-  margin-right: 0;
+  margin: 0;
 }
 
 .portfolio-style {
@@ -390,6 +395,7 @@ p {
   gap: 30px;
   flex-basis: calc((100% - 60%) / 3);
   padding-left: 0px;
+  letter-spacing: 0.03em;
 }
 .portfolio-menu {
   display: flex;
@@ -405,7 +411,7 @@ p {
   box-sizing: border-box;
   border: 1px solid #eeeeee;
   background-color: #ffffff;
-  flex-basis: calc((100% - 60%) / 3);
+  letter-spacing: 0.03em;
 }
 
 .portfolio-item-description {
