@@ -199,6 +199,7 @@ body {
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  border: #ffffff;
 }
 .position-name {
   color: inherit;
@@ -230,7 +231,6 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 215px;
 }
 
 .border-header {
@@ -337,7 +337,7 @@ p {
   gap: 10px;
 }
 .section3-style {
-  margin: 0 auto;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -345,7 +345,7 @@ p {
   align-items: center;
   background-color: #f5f4fa;
   width: 1600px;
-  padding: 60px, 0px, 60px, 0px;
+  padding: 60px 0px;
 }
 .team-item {
   margin: 0;
@@ -402,7 +402,6 @@ p {
   width: 370px;
   border: 1px solid;
   border-color: #eeeeee;
-  justify-content: space-around;
 }
 
 .portfolio-item-description {
@@ -426,6 +425,7 @@ p {
 
 .footer-style {
   padding: 60px 0px 60px 0px;
+  width: 1600px;
 }
 
 .footer-style .container {
