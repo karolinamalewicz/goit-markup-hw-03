@@ -238,8 +238,7 @@ ul {
   border-color: var(--grey-color);
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px;
 }
 .header-description {
   padding: 24px 15px 25px 15px;
@@ -337,7 +336,7 @@ p {
   gap: 10px;
 }
 .section3-style {
-  margin-left: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -388,6 +387,7 @@ p {
   justify-content: space-between;
   gap: 30px;
   flex-basis: 370px;
+  padding-right: 215px;
 }
 .portfolio-menu {
   display: flex;
